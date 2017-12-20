@@ -7,12 +7,12 @@ import { RouterModule} from '@angular/router';
 import { IndexComponent} from './components/index/index.component';
 import { DashboardComponent} from './components/dashboard/dashboard.component';
 import {NavigationBarComponent} from './components/NavigationBar/navbar';
-
+import { FilterPipe} from './pipes/filter.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent,LoginComponent, DashboardComponent,IndexComponent, NavigationBarComponent
+    AppComponent,LoginComponent, DashboardComponent,IndexComponent, NavigationBarComponent,FilterPipe
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule,
