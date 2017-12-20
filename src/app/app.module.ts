@@ -6,10 +6,13 @@ import { AppComponent } from './app.component';
 import { RouterModule} from '@angular/router';
 import { IndexComponent} from './components/index/index.component';
 import { DashboardComponent} from './components/dashboard/dashboard.component';
+import {NavigationBarComponent} from './components/NavigationBar/navbar';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent,LoginComponent, DashboardComponent,IndexComponent
+    AppComponent,LoginComponent, DashboardComponent,IndexComponent, NavigationBarComponent
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule,

@@ -1,0 +1,12 @@
+#addbtn{
+    margin-left: 25%;
+}
+
+#modalinput{
+    width: 250%;
+    border-radius: 15%;
+}
+
+.modal-body{
+    padding: 10%;
+}

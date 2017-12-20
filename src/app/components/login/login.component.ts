@@ -23,7 +23,7 @@ onSubmit() {
     console.log(this.LoginForm.value);
     var obj : object;
     obj=this.LoginForm.value;
-    console.log(obj.username);
+    //console.log(obj.username);
 
     if(obj.username === "admin" && obj.password==="admin")
     {
